@@ -237,10 +237,7 @@ h1 {
 
     }
 
-    .time_decoration {
-        position: relative;
-        top: 100%;
-    }
+    
 
     .details_holder {
         margin-top: 20px !important;
@@ -271,8 +268,21 @@ h1 {
 
     .time_details {
         height: 150px !important;
+        transform: translateY(-100px);
+        
     }
     .card:hover{
         scale:1;
-        
+
     }
+    .time_selector{
+        display: flex;
+        height:50px;
+        flex-direction: row;
+
+    }
+    .time_decoration{
+        /* transform: translateY(200px); */
+         
+    }
+}
