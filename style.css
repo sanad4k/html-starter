@@ -1,6 +1,8 @@
 body {
     background-color: hsl(226, 43%, 10%);
     color: whitesmoke;
+    font-family: 'Rubik', sans-serif; /* Fallback to a sans-serif font */
+
 }
 
 .just {
@@ -250,7 +252,21 @@ h1 {
     .Person_details {
         margin: auto;
         box-sizing: content-box I !important;
+        height: 90px;
+        /* display: flex; */
+
     }
+  
+    .report{
+        /* display: inline; */
+        transform: translate(95px, -70px);
+    }
+    .NAME{
+        font-size: 30px;
+        transform: translate(95px, -70px);
+
+    }
+    
 
     .card {
         width: 320px !important;
@@ -258,9 +274,7 @@ h1 {
         /* padding: 0 !important; */
     }
 
-    .Person_details {
-        height: 200px;
-    }
+    
 
     .time_decoration {
         height: 150px;
@@ -281,8 +295,5 @@ h1 {
         flex-direction: row;
 
     }
-    .time_decoration{
-        /* transform: translateY(200px); */
-         
-    }
+    
 }
