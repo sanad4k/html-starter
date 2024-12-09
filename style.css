@@ -183,3 +183,6 @@ body {
 h1{
     border-bottom: 0;
 }
+.hidden{
+    display:none;
+}
