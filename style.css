@@ -1,0 +1,109 @@
+body{
+    background-color:hsl(226, 43%, 10%) ;
+    color:whitesmoke;
+}
+.just{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    align-self: center;
+    position: absolute;
+    top:7%;
+    left:15%;
+}
+.dashboard{
+    background-color:hsl(226, 43%, 10%) ;
+    display:flex;
+    /* position: absolute; */
+    width: 1440px;
+    margin: auto;
+    /* align-items: center; */
+    
+   
+
+}
+ /* padding-inline:10px; */
+
+ .card{
+    border-radius: 10px;
+    margin:10px;
+}
+.Person_details{
+    position: relative;
+    width: 275px;
+    height: 375px;
+    background-color:hsl(246, 80%, 60%);
+    padding: 30px;
+    z-index: 2;
+
+    
+}
+
+.image_container{
+    border-radius: 50%;
+    width:75PX;
+    height:75px;
+}
+.image_container img{
+    object-fit: cover;
+    height: 100%;
+    width:100%
+}
+.report{
+    color:rgb(160, 151, 139)
+}
+.NAME {
+    font-size: 45px;
+    padding-top: 10px;
+}
+.time_selector{
+    position: relative;
+    width: 275px;
+    height:150px;
+    background-color: hsl(235, 46%, 20%);
+    padding:30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: -23px;
+    z-index:1;
+
+}
+
+.times_mode{
+    font-size: 18px;
+}
+.time_spent{
+    display: flex;
+    width:1165px;
+    flex-wrap: wrap;
+    /* justify-content: space-around; */
+    
+
+}
+.time_details{
+    background-color: red !important;
+    width: 281px !important;
+    height: 225px !important;
+    z-index: 2;
+    position: relative;
+    top:-20%;
+    
+}
+.time_decoration{
+    position: relative;
+    z-index: 1;
+    background-color: blue;
+    width: 281px;
+    height:150px;
+    /* top: -20%; */
+}
+.lower{
+    position: relative;
+    top:-40%
+}
+.lower_{
+    position: relative;
+    top:-20%;
+
+}
