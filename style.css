@@ -85,8 +85,9 @@ body {
     font-size: 18px;
     transition: 0.4s;
 }
-.times_mode:hover{
-    color:black;
+
+.times_mode:hover {
+    color: black;
 }
 
 .time_spent {
@@ -135,10 +136,11 @@ body {
     position: relative;
     left: 70%;
 }
-.card:hover{
+
+.card:hover {
     background-color: hsl(235, 45%, 61%);
     cursor: pointer;
-    scale:1.08;
+    scale: 1.08;
 }
 
 .card0 {
@@ -192,23 +194,28 @@ body {
     font-weight: bold;
     cursor: pointer;
 }
-h1{
+
+h1 {
     border-bottom: 0;
 }
-.hidden{
-    display:none;
+
+.hidden {
+    display: none;
 }
-.dashboard{
-    position:absolute;
-    top:13%;
+
+.dashboard {
+    position: absolute;
+    top: 13%;
     left: 15%;
 }
-@media (max-width: 768px){
-    body{
-        padding:10px;
+
+@media (max-width: 768px) {
+    body {
+        padding: 10px;
     }
-    .dashboard{
-        position:static;
+
+    .dashboard {
+        position: static;
         flex-direction: column;
         width: 100%;
         justify-content: center;
@@ -216,36 +223,56 @@ h1{
         flex-wrap: wrap;
         /* margin: auto; */
     }
-    .time_spent{
+
+    .time_spent {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        width:100%;
-        
+        width: 100%;
+
     }
-    .card{
-        margin:0 !important;
-        
+
+    .card {
+        margin: 0 !important;
+
     }
-    .time_decoration{
+
+    .time_decoration {
         position: relative;
-        top:100%;
+        top: 100%;
     }
-    .details_holder{
+
+    .details_holder {
         margin-top: 20px !important;
     }
-    .person{
+
+    .person {
         margin: auto;
     }
-    .Person_details{
+
+    .Person_details {
         margin: auto;
         box-sizing: content-box I !important;
     }
-    .card{
+
+    .card {
         width: 320px !important;
-        box-sizing: content-box I ;
+        box-sizing: content-box I;
         /* padding: 0 !important; */
     }
-   .Person_details{
-    height: 200px;
-   }
+
+    .Person_details {
+        height: 200px;
+    }
+
+    .time_decoration {
+        height: 150px;
+    }
+
+    .time_details {
+        height: 150px !important;
+    }
+    .card:hover{
+        scale:1;
+        
+    }
