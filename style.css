@@ -243,6 +243,13 @@ h1 {
 
     .details_holder {
         margin-top: 20px !important;
+        transform: translateY(-140px);
+    }
+    .bug3{
+        transform: translateY(-190px) !important;
+    }
+    .l{
+        transform: translateY(-250px) !important;
     }
 
     .person {
@@ -295,5 +302,15 @@ h1 {
         flex-direction: row;
 
     }
+    .bug1{
+        transform: translateY(0) !important;
+    }
+    .bug2{
+        transform: translateY(-70px) !important;
+    }
+    .bug4{
+        transform: translateY(-300px) !important;
+    }
+
     
 }
