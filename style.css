@@ -16,9 +16,11 @@ body {
 .dashboard {
     background-color: hsl(226, 43%, 10%);
     display: flex;
+    flex-wrap: wrap;
     /* position: absolute; */
-    width: 1440px;
+    width: 1600px;
     margin: auto;
+    box-sizing: border-box;
     /* align-items: center; */
 
 
@@ -30,6 +32,7 @@ body {
 .card {
     border-radius: 10px;
     margin: 10px;
+    transition: 0.4s;
 }
 
 .Person_details {
@@ -80,12 +83,16 @@ body {
 
 .times_mode {
     font-size: 18px;
+    transition: 0.4s;
+}
+.times_mode:hover{
+    color:black;
 }
 
 .time_spent {
     display: flex;
-    width: 1165px;
     flex-wrap: wrap;
+    width: 1165px;
     /* justify-content: space-around; */
     box-sizing: border-box;
 
@@ -127,6 +134,11 @@ body {
 .icons_dec {
     position: relative;
     left: 70%;
+}
+.card:hover{
+    background-color: hsl(235, 45%, 61%);
+    cursor: pointer;
+    scale:1.08;
 }
 
 .card0 {
@@ -186,3 +198,54 @@ h1{
 .hidden{
     display:none;
 }
+.dashboard{
+    position:absolute;
+    top:13%;
+    left: 15%;
+}
+@media (max-width: 768px){
+    body{
+        padding:10px;
+    }
+    .dashboard{
+        position:static;
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+        box-sizing: border-box;
+        flex-wrap: wrap;
+        /* margin: auto; */
+    }
+    .time_spent{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width:100%;
+        
+    }
+    .card{
+        margin:0 !important;
+        
+    }
+    .time_decoration{
+        position: relative;
+        top:100%;
+    }
+    .details_holder{
+        margin-top: 20px !important;
+    }
+    .person{
+        margin: auto;
+    }
+    .Person_details{
+        margin: auto;
+        box-sizing: content-box I !important;
+    }
+    .card{
+        width: 320px !important;
+        box-sizing: content-box I ;
+        /* padding: 0 !important; */
+    }
+   .Person_details{
+    height: 200px;
+   }
