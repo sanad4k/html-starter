@@ -280,6 +280,9 @@ h1 {
         box-sizing: content-box I;
         /* padding: 0 !important; */
     }
+    .fixing-width{
+        width: 260px !important;
+    }
 
     
 
